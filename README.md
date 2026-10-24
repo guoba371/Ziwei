@@ -6,9 +6,11 @@
 
 # 星系角色图鉴 · STAR ATLAS
 
+![Deploy](https://github.com/guoba371/Ziwei/actions/workflows/deploy-pages.yml/badge.svg)
 ![Tests](https://img.shields.io/badge/tests-32%20passed-brightgreen)
 ![TypeScript](https://img.shields.io/badge/typecheck-passing-blue)
 ![Lighthouse](https://img.shields.io/badge/Lighthouse_perf_94-a11y_100-BrightGreen)
+![License](https://img.shields.io/badge/license-MIT-blue)
 ![React](https://img.shields.io/badge/React-19-61dafb?logo=react&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-8-646cff)
 
