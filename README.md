@@ -1,6 +1,20 @@
 # 星系角色图鉴
 
+<p align="center">
+  <img src="docs/screenshots/home-desktop.jpg" alt="星系角色图鉴首页" width="720" />
+</p>
+
+# 星系角色图鉴 · STAR ATLAS
+
+![Tests](https://img.shields.io/badge/tests-32%20passed-brightgreen)
+![TypeScript](https://img.shields.io/badge/typecheck-passing-blue)
+![Lighthouse](https://img.shields.io/badge/Lighthouse_perf_94-a11y_100-BrightGreen)
+![React](https://img.shields.io/badge/React-19-61dafb?logo=react&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-8-646cff)
+
 原创娱乐问卷的本地 H5 原型。12 道题、8 种角色、明确标识的免费演示解锁，以及本机生成的高清结果卡。
+
+**在线体验（GitHub Pages）**：`https://guoba371.github.io/Ziwei/`（部署工作流推送 `main` 后自动生效）
 
 ## 运行
 
@@ -21,6 +35,10 @@ npm run preview -- --port 4173 --strictPort
 ```
 
 `dist/` 是构建后的静态站点。不要双击 `index.html`，使用 HTTP 服务预览。
+
+## 部署到 GitHub Pages
+
+仓库内含 `.github/workflows/deploy-pages.yml`：推送到 `main` 时自动构建并发布到 Pages。首次启用需在 GitHub 仓库 **Settings → Pages → Build and deployment → Source** 选择 **GitHub Actions**。
 
 ## 已实现
 
