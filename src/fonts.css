@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'Noto Serif SC Variable';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 200 900;
+  src: url('/fonts/noto-serif-sc-subset.woff2') format('woff2-variations');
+}
